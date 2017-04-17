@@ -1,0 +1,30 @@
+
+li{
+        margin-left: 100px;
+}
+
+.navbar{
+    position:relative;
+}
+
+h1{
+    text-align:center;
+    font-weight:bold;
+}
+
+p{
+    text-align:justify;
+}
+
+img{
+    margin-left: 60px;
+}
+
+footer{
+    margin-left: 100px;
+}
+
+.top{
+   float: right;
+   margin-right: 50px; 
+}

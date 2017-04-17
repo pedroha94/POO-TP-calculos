@@ -1,0 +1,34 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../img/icone.png">
+        <link  href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link  href="../css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse navbar-fixed-bottom">
+            <div class="container">
+            <a class="navbar-brand" href="../home.jsp">GRUPO 05</a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../home.jsp">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../amortizacao-americana.jsp">Amortização Americana</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../amortizacao-constante.jsp">Amortizacao Constante</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../tabela-price.jsp">Tabela Price</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </body>
+</html>
