@@ -1,4 +1,3 @@
-<%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
 <html>
     <head>
@@ -11,7 +10,7 @@
     <body>
         <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse navbar-fixed-bottom">
             <div class="container">
-            <a class="navbar-brand" href="../home.jsp">GRUPO 05</a>
+            <a class="navbar-brand" href="../home.jsp">GRUPO 02</a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">

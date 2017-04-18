@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>PRICE</title>
+        <title>Tabela Price</title>
     </head>
     <body>
         <%@ include file="WEB-INF/menu.jspf" %>
