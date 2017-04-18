@@ -10,10 +10,10 @@
         <!--para cálculo e apresentação do resultado a partir de entradas em um 
         form na mesma página-->
         <%
-            double valorParcela;
-            double valorPresente;
-            double taxaJuros;
-            double periodos;
+            double valorParcela = 0;
+            double valorPresente = 0;
+            double taxaJuros = 0;
+            double periodos = 0;
             valorParcela=valorPresente*(Math.pow((1+taxaJuros),periodos)*taxaJuros)/(Math.pow((1+taxaJuros),periodos)-1);
         %>
         <%@ include file="WEB-INF/rodape.jspf" %>
