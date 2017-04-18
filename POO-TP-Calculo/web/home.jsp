@@ -37,40 +37,6 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7">
-                <a href="amortizacao-americana.jsp" style="color: #000" ><h2 class="featurette-heading">Amortização Americana</h2></a>
-                <p class="lead">É caracterizado por pagamentos mensais equivalentes aos juros, não havendo amortizações mensais e prevendo a amortização total da dívida inicial em um único pagamento ao final de um período estipulado (em meses ou anos).</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="img/saa.jpg" alt="Generic placeholder image">
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7 push-md-5">
-                <a href="amortizacao-constante.jsp" style="color: #000" ><h2 class="featurette-heading">Amortização Constante</h2></a>
-                <p class="lead">Também conhecido como Sistema de SAC, ou Método Hamburguês, é caracterizado por pagamentos mensais decrescentes, que embutem uma amortização constante.</p>
-            </div>
-            <div class="col-md-5 pull-md-7">
-                <img class="featurette-image img-fluid mx-auto" src="img/sac.jpg" alt="Generic placeholder image">
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <a href="tabela-price.jsp" style="color: #000"><h2 class="featurette-heading">Tabela Price</h2></a>
-                <p class="lead">Também chamado de Sistema de Parcelas Fixas, ou Sistema Francês, é caracterizado por pagamentos mensais iguais, embutindo uma amortização crescente.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" src="img/price.jpg" alt="Generic placeholder image">
-            </div>
-        </div>
-
         <hr class="featurette-divider">
     </div>
     <%@ include file="WEB-INF/rodape.jspf" %>
