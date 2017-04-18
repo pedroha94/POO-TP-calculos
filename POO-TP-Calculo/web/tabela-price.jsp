@@ -1,9 +1,3 @@
-<%-- 
-    Document   : tabela-price
-    Created on : 14/04/2017, 01:13:49
-    Author     : sabino
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

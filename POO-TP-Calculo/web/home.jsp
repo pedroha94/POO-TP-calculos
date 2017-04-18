@@ -1,9 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : 14/04/2017, 01:06:48
-    Author     : sabino
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,7 +8,7 @@
         <title>Home</title>
     </head>
     <body>
-        <!--home.jps com informações sobre a equipe e o que faz a aplicação -->
+<!--home.jps com informações sobre a equipe e o que faz a aplicação -->
         <%@ include file="WEB-INF/menu.jspf" %>
      
         <p><h1>Nossa Equipe</h1></p><br/>

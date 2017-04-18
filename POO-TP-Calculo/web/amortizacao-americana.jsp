@@ -1,9 +1,3 @@
-<%-- 
-    Document   : amortizacao-americana
-    Created on : 14/04/2017, 01:11:43
-    Author     : sabino
---%>
-
 <%@page import="java.text.NumberFormat"%>
 <%@page import="java.text.DecimalFormat"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
