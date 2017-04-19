@@ -68,7 +68,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-block">
-                            <h4 class="card-title">Amortização Americana</h4>
+                            <h4 style="text-align:center;" class="card-title">Amortização Americana</h4>
                             <p class="card-text">Veja a seguir um simulador para calcular as parcelas, juros e amortizações no sistema de amortização americana. Ajuste os valores abaixo e clique em [Calcular »]:</p>
                         </div>
                         <div class="card-block">

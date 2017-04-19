@@ -7,16 +7,6 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Tabela Price</title>
-        <script type="text/javascript" src="js/jquery.js" ></script>
-        <script type="text/javascript" src="js/jquery.maskMoney.js" ></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("input.dinheiro").maskMoney({showSymbol:true, symbol:"R$", decimal:",", thousands:"."});
-            });
-            $(document).ready(function(){
-                $("input.juros").maskMoney({showSymbol:false, decimal:",", thousands:""});
-            });
-        </script>
     </head>
     <body>
         <%@ include file="WEB-INF/menu.jspf" %>
@@ -82,7 +72,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Saldo Devedor (R$)</label>
-                                            <input type="number" name="vl_total" class="form-control" required>
+                                            <input type="text" name="vl_total" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -94,7 +84,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Taxa de Juros: (%)</label>
-                                            <input type="number" name="tx_juros" class="form-control" required>
+                                            <input type="text" name="tx_juros" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
