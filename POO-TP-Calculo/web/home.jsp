@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <img class="" src="img/higor.jpg" alt="Higor" width="140">
+                <img class="" src="img/higor.jpg" alt="Higor Moroni" width="140" height="140">
                 <h2>Higor Moroni</h2>
                 <p>Desenvolvedor responsável pela página de Tabela Price.</p>
                 <div class="col-lg-12">
@@ -91,12 +91,12 @@
                         </a>
                     </div>
                     <div class="col-lg-4" style="float: left;">
-                        <a href="https://github.com/pedroha94" target="_blank">
+                        <a href="https://github.com/HigorMoroni" target="_blank">
                             <img src="img/git.png" style="float: left;padding: 0;width: 100%;margin: 0px;">
                         </a>
                     </div>
                     <div class="col-lg-4" style="float: left;">
-                        <a href="https://www.linkedin.com/in/pedro-amaral-a88bb189/" target="_blank">
+                        <a href="https://www.linkedin.com/in/higormoroni" target="_blank">
                             <img src="img/in.png" style="float: left;padding: 0;width: 100%;margin: 0px;">
                         </a>
                     </div>
