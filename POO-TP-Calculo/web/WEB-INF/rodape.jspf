@@ -7,6 +7,8 @@
     <body>
         <footer>
                     <span style="text-align: center;">Grupo 2</span>
+                    <p>POO - Programação Orientada à Objetos - ADS Noite</p>
+                    &copy; 2017 - Todos os direitos reservados.
         </footer>
     </body>
 </html>
