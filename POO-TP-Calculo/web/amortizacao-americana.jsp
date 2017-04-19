@@ -6,7 +6,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="icon" href="../img/icone.png">
-        <title>SAA</title>
+        <title>Amortização Americana</title>
     </head>
     <body>
         <%@ include file="WEB-INF/menu.jspf" %>
@@ -113,6 +113,7 @@
                                                 double saldoDevedor = P;
                                                 double juros = (P*i)/100;
                                                 double prestacao = A + juros;
+                                                if (k==n) {saldoDevedor=0;amortizacao=0;}
                                     %>
                                     <tr>
                                         <th scope="row"><%=periodo%></th>
