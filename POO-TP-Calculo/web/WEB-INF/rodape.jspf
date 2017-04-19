@@ -6,7 +6,7 @@
     </head>
     <body>
         <footer>
-                    <p style="text-align: center;">Grupo 2</p>
+                    <span style="text-align: center;">Grupo 2</span>
         </footer>
     </body>
 </html>
