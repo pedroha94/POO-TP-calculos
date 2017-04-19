@@ -46,7 +46,7 @@
                         totalPrestacao += prestacao;
                     }
 
-                } catch (Exception ex) {
+                } catch (Exception e) {
                     error = true;
                     if (ex instanceof java.lang.NullPointerException) {
                         error = false;
