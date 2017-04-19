@@ -37,22 +37,22 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <img class="" src="img/jonathas.jpg" alt="Jonathas" image="width=140" height="140">
-                <h2>Jonathas Lopes</h2>
+                <img class="" src="img/jonathas.jpg" alt="Jonatas" image="width=140" height="140">
+                <h2>Jonatas Lopes</h2>
                 <p>Desenvolvedor responsável pela página de Amortização Constante.</p>
                 <div class="col-lg-12">
                     <div class="col-lg-4" style="float: left;">
-                        <a href="https://www.facebook.com/profile.php?id=100002922871347" target="_blank">
+                        <a href="https://www.facebook.com/johnnnatas" target="_blank">
                             <img src="img/face.png" style="float: left;padding: 0;width: 100%;margin: 0px;">
                         </a>
                     </div>
                     <div class="col-lg-4" style="float: left;">
-                        <a href="https://github.com/pedroha94" target="_blank">
+                        <a href="https://github.com/johnnatas" target="_blank">
                             <img src="img/git.png" style="float: left;padding: 0;width: 100%;margin: 0px;">
                         </a>
                     </div>
                     <div class="col-lg-4" style="float: left;">
-                        <a href="https://www.linkedin.com/in/pedro-amaral-a88bb189/" target="_blank">
+                        <a href="https://www.linkedin.com/in/jonatas-feij%C3%B3-lopes-a6141a127/" target="_blank">
                             <img src="img/in.png" style="float: left;padding: 0;width: 100%;margin: 0px;">
                         </a>
                     </div>

@@ -46,13 +46,13 @@
                         totalPrestacao += prestacao;
                     }
 
-                } catch (Exception ex) {
+                } catch (Exception e) {
                     error = true;
-                    if (ex instanceof java.lang.NullPointerException) {
+                    if (e instanceof java.lang.NullPointerException) {
                         error = false;
                         isNull = true;
                     }
-                    if (ex instanceof java.lang.NumberFormatException) {
+                    if (e instanceof java.lang.NumberFormatException) {
                         mensagem = "Algum campo não foi preenchido corretamente";
                     }
 
