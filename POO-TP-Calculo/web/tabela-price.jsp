@@ -1,5 +1,6 @@
 <%@page import="java.text.NumberFormat"%>
 <%@page import="java.text.DecimalFormat"%>
+<%@page import="java.lang.Math"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -41,9 +42,9 @@
                     taxaJuros = Double.parseDouble(request.getParameter("tx_juros")) / 100; //i
                     
                     valorParcela=valorPresente*(Math.pow((1+taxaJuros),numParcelas)*taxaJuros)/(Math.pow((1+taxaJuros),numParcelas)-1);
+                    double saldoDevedor=valorPresente;
                     
                     for (int k=1; k<=numParcelas; k++){
-                        double saldoDevedor=valorPresente;
                         int periodo=k;
                         double juros=saldoDevedor*taxaJuros;
                         double amortizacao=valorParcela-juros;
@@ -81,7 +82,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Saldo Devedor (R$)</label>
-                                            <input type="text" name="valor_total" class="form-control dinheiro" required>
+                                            <input type="number" name="vl_total" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -93,7 +94,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Taxa de Juros: (%)</label>
-                                            <input type="text" name="tx_juros" class="form-control juros" required>
+                                            <input type="number" name="tx_juros" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -118,8 +119,8 @@
                                 <tbody>
                                     <%
                                         if (!isNull) {
+                                            double saldoDevedor=valorPresente;
                                             for (int k=1;k<=numParcelas;k++) {
-                                                double saldoDevedor=valorPresente;
                                                 int periodo=k;
                                                 double juros=saldoDevedor*taxaJuros;
                                                 double amortizacao=valorParcela-juros;
