@@ -113,7 +113,7 @@
                                                 double saldoDevedor = P;
                                                 double juros = (P*i)/100;
                                                 double prestacao = A + juros;
-                                                if (k==n) {saldoDevedor=0;amortizacao=0;}
+                                                if (k==n) {saldoDevedor=0;amortizacao=P;}
                                     %>
                                     <tr>
                                         <th scope="row"><%=periodo%></th>
