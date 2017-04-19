@@ -38,7 +38,7 @@
             </div>
             <div class="col-lg-3">
                 <img class="" src="img/jonathas.jpg" alt="Jonatas" image="width=140" height="140">
-                <h2>Jonathas Lopes</h2>
+                <h2>Jonatas Lopes</h2>
                 <p>Desenvolvedor responsável pela página de Amortização Constante.</p>
                 <div class="col-lg-12">
                     <div class="col-lg-4" style="float: left;">
