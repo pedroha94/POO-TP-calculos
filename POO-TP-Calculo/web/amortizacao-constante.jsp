@@ -13,6 +13,7 @@
         form na mesma página-->
         <section class="container-fluid" style="margin-top: 25px">
             <%
+                //inicializando as variáveis
                 double P = 0;
                 int n = 0;
                 double i = 0;
@@ -27,13 +28,16 @@
                 String mensagem = "";
 
                 try {
-
+                    
+                    //convertendo as variáveis e armazenando o que foi digitado
                     P = Double.parseDouble(request.getParameter("vl_total"));
                     n = Integer.parseInt(request.getParameter("qt_parcelas"));
                     i = Double.parseDouble(request.getParameter("tx_juros")) / 100;
-
+                    
+                    //calculo da amortização
                     A = P / n;
 
+                    //calculo do valor total da amortização, juros e prestação
                     for (int k = 1; k <= n; k++) {
                         double total = P;
                         int periodo = k;
