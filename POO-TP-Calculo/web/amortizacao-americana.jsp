@@ -5,7 +5,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Amortização Americana</title>
+        <link rel="icon" href="../img/icone.png">
+        <title>SAA</title>
     </head>
     <body>
         <%@ include file="WEB-INF/menu.jspf" %>
@@ -17,23 +18,17 @@
                 int n = 0;
                 double i = 0;
                 double A = 0;
-
                 double totalPrestacao = 0;
                 double totalJuros = 0;
                 double totalAmortizacao = 0;
-
                 boolean error = false;
                 boolean isNull = false;
                 String mensagem = "";
-
                 try {
-
                     P = Double.parseDouble(request.getParameter("vl_total"));
                     n = Integer.parseInt(request.getParameter("qt_parcelas"));
                     i = Double.parseDouble(request.getParameter("tx_juros"));
-
                     A = 0;
-
                     for (int k = 1; k <= n; k++) {
                         double total = P;
                         int periodo = k;
@@ -45,7 +40,6 @@
                         totalJuros = juros;
                         totalPrestacao = P + juros;
                     }
-
                 } catch (Exception ex) {
                     error = true;
                     if (ex instanceof java.lang.NullPointerException) {
@@ -55,9 +49,7 @@
                     if (ex instanceof java.lang.NumberFormatException) {
                         mensagem = "Algum campo não foi preenchido corretamente";
                     }
-
                 }
-
             %>
             <% if (error) {%>
             <div class="alert alert-danger" role="alert">
@@ -68,7 +60,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-block">
-                            <h4 style="text-align:center;" class="card-title">Amortização Americana</h4>
+                            <h4 class="card-title">Amortização Americana</h4>
                             <p class="card-text">Veja a seguir um simulador para calcular as parcelas, juros e amortizações no sistema de amortização americana. Ajuste os valores abaixo e clique em [Calcular »]:</p>
                         </div>
                         <div class="card-block">
@@ -150,3 +142,5 @@
         <%@ include file="WEB-INF/rodape.jspf" %>
     </body>
 </html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help

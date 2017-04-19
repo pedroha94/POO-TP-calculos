@@ -5,8 +5,8 @@
     <link  href="../css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <footer>
-                    <span style="text-align: center;">Grupo 2</span>
+        <footer style="text-align: center;">
+                    <span>Grupo 2</span>
                     <p>POO - Programação Orientada à Objetos - ADS Noite</p>
                     &copy; 2017 - Todos os direitos reservados.
         </footer>
