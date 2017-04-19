@@ -83,7 +83,7 @@
             <div class="col-lg-3">
                 <img class="" src="img/higor.jpg" alt="Higor Moroni" width="140" height="140">
                 <h2>Higor Moroni</h2>
-                <p>Desenvolvedor responsável pela página de Tabela Price.</p>
+                <p>Desenvolvedor responsável pela construção da página da Tabela Price.</p>
                 <div class="col-lg-12">
                     <div class="col-lg-4" style="float: left;">
                         <a href="https://www.facebook.com/elderhmoroni" target="_blank">
