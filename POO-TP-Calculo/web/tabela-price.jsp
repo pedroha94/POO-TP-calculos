@@ -72,7 +72,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Saldo Devedor (R$)</label>
-                                            <input type="text" name="vl_total" class="form-control" required>
+                                            <input type="number" name="vl_total" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -84,7 +84,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Taxa de Juros: (%)</label>
-                                            <input type="text" name="tx_juros" class="form-control" required>
+                                            <input type="number" name="tx_juros" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
